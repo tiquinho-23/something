@@ -1,6 +1,7 @@
 import Hero from "./components/hero";
 import Villain from "./components/villain";
 import "./components/hero.css";
+import Contato from "./components/contato";
 function Saudacao(props) {
   return (
     <h2>Olá, {props.nome}! Seja bem-vindo à aula.</h2>

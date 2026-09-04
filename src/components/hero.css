@@ -4,7 +4,7 @@
 }
 
 .hero h1{
-    color: darkblue !important;
+    color: rgb(0, 0, 241) !important;
 }
 
 .hero p{
@@ -16,4 +16,10 @@
     border: none;
     cursor: pointer;
     padding: 12px 25px;
+}
+
+.hero button:hover{
+    background-color: orangered;
+    scale: 200%;
+    transition: ease-in;
 }
